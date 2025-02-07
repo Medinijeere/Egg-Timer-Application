@@ -52,9 +52,9 @@ class EggTimerApp(QWidget):
 
         # Egg Types and Icons (with relative paths)
         self.egg_types = {
-            "Boiled Egg": (os.path.join(base_dir, "images", "New Piskel-1.png.png"), QTime(0, 4, 0), 250),
-            "Omelette": (os.path.join(base_dir, "images", "New Piskel-1.png (2).png"), QTime(0, 3, 0), 250),
-            "Bullseye Egg": (os.path.join(base_dir, "images", "New Piskel-1.png (1).png"), QTime(0, 2, 30), 250)
+            "Boiled Egg": (os.path.join(base_dir, "images", "Boiled egg"), QTime(0, 4, 0), 250),
+            "Omelette": (os.path.join(base_dir, "images", "Bullseye"), QTime(0, 3, 0), 250),
+            "Bullseye Egg": (os.path.join(base_dir, "images", "Omelette"), QTime(0, 2, 30), 250)
         }
 
         self.timer = QTimer(self)
